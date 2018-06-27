@@ -7,45 +7,40 @@
 - Ésta página web está enfocada a la venta de tomates
 - Estructura visual:
 	- Fuentes
-		- OpenSans-Regular
-		- Raleway-Bold
-		- Raleway-ExtraLight
+		- Delius
+		- Roboto
+
 	- Colores:
-		- (#E56353) Jelly Bean
-		- (#686963) Granite Gray
-		- (#707070) Nickel
-		- (#FAFAFA) Snow
-		- (#FFFFFF) White
+		- (#e44880)
+		- (#01d194)
+		- (#FF4C4C)
+		- (#FAFAFA)
 
 	- Imagenes:
-		- Entragadas por el cliente (vea carpeta "images")
+		- Entregadas por cliente, sacadas personalmente y de internet. (vea carpeta "images")
 
 
-### La Página web está dividida en 8 secciones:
+### La Página web está dividida en 6 secciones (Index):
 
 1. Navbar
 2. Cabecera
-3. Visión del negocio
-4. De donde vienen los productos
-5. "Nosotros"
-6. Información sobre los dueños y fundadores.
-7. Invitación a comprar sus tomates.
-8. Footer
+3. Enfoque de la página
+4. Actividades
+5. Información sana
+6. Footer
 
 ### Requerimientos específicos:
 
-- Mostrar logo
-- Que sea responsivo
-- El contenido sera por parte del negocio junto a los encargados de sus redes sociales.
-- utilización de grillas Bootstrap
+- Mostrará logo
+- Será responsivo
+- Utilización de grillas Bootstrap
 
 ### Requerimientos visuales:
 
 - Layout : Se hará con Bootstrap
-- Fuentes: Vienen en el repositorio
-- Titulos: Raleway Bold
-- Parrafos: OpenSans-Regular
-- Banner y footer: Raleway-Extralight
+- Titulos: (fuente)
+- Parrafos: (fuente)
+- Banner y footer: (fuente)
 
 ### Descripción de las secciones, layout, estructura HTML y clases CSS que decidí usar.
 
@@ -78,10 +73,11 @@
 	- footer_logo
 	- footer_social
 	- footer_list
+	- footer_map
 
 ### Estructura de directorio
 
-- **PROYECTO TIATOMATE**
+- **PROYECTO_FINAL**
 	- README.md
 	- index.html
 	- assets/
@@ -97,3 +93,11 @@
 
 **Versión móvil**
 ![Pagina web - mobil](assets/images/imagen02.jpeg)
+
+### Foto con los mockup versión escritorio y móvil.
+
+**Versión escritorio**
+![Pagina web](assets/images/imagen03.png)
+
+**Versión móvil**
+![Pagina web](assets/images/imagen04.png)
