@@ -2,7 +2,9 @@
 ## Vida Sana en Quilicura
 
 ### Listado con los requerimientos visuales y técnicos de la web
-- Ésta página web está enfocada a la venta de tomates
+- Ésta página web está enfocada en mejorar la vida y salud de personas
+- Página para adolescentes y adultos, tanto mujeres como hombres, que quieren una vida sana
+
 - Estructura visual:
 	- Fuentes
 		- Delius
@@ -36,9 +38,9 @@
 ### Requerimientos visuales:
 
 - Layout : Se hará con Bootstrap
-- Titulos: (fuente)
-- Parrafos: (fuente)
-- Banner y footer: (fuente)
+- Titulos: (Aún por ver)
+- Parrafos: (Aún por ver)
+- Banner y footer: (Aún por ver)
 
 ### Descripción de las secciones, layout, estructura HTML y clases CSS que decidí usar.
 
@@ -49,7 +51,7 @@
 - Header
 	- header
 	- header_tittle
-- Article
+- Main
 	- blog
 	- blog_container
 	- blogcontainer_img01
