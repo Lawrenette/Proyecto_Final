@@ -9,7 +9,7 @@
 		- Roboto
 
 	- Colores:
-		- (#e44880)
+		- (#E44880)
 		- (#01d194)
 		- (#FF4C4C)
 		- (#FAFAFA)
@@ -84,18 +84,10 @@
 		- images/
 		- js/
                  
-### Foto con los sketch de la versión escritorio y móvil.
+### Foto con los sketch versión escritorio y móvil.
 
 **Versión escritorio**
-![Pagina web](assets/images/imagen01.jpeg)
+![Pagina web](assets/images/imagen01.png)
 
 **Versión móvil**
-![Pagina web](assets/images/imagen02.jpeg)
-
-### Foto con los mockup versión escritorio y móvil.
-
-**Versión escritorio**
-![Pagina web](assets/images/imagen03.png)
-
-**Versión móvil**
-![Pagina web](assets/images/imagen04.png)
+![Pagina web](assets/images/imagen02.png)
