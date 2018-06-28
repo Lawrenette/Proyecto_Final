@@ -1,7 +1,5 @@
 # Proyecto Final
-
-----------
-
+## Vida Sana en Quilicura
 
 ### Listado con los requerimientos visuales y técnicos de la web
 - Ésta página web está enfocada a la venta de tomates
@@ -92,7 +90,7 @@
 ![Pagina web](assets/images/imagen01.jpeg)
 
 **Versión móvil**
-![Pagina web - mobil](assets/images/imagen02.jpeg)
+![Pagina web](assets/images/imagen02.jpeg)
 
 ### Foto con los mockup versión escritorio y móvil.
 
