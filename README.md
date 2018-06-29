@@ -12,6 +12,7 @@
 
 	- Colores:
 		- (#E44880)
+		- (#FFC107)
 		- (#01d194)
 		- (#FF4C4C)
 		- (#FAFAFA)
@@ -23,7 +24,7 @@
 ### La Página web está dividida en 6 secciones (Index):
 
 1. Navbar
-2. Cabecera
+2. Header
 3. Enfoque de la página
 4. Actividades
 5. Información sana
@@ -48,25 +49,15 @@
 	- navbar
 	- navbar_logo
 	- navbar_navegation
+
 - Header
 	- header
 	- header_tittle
+
 - Main
-	- blog
-	- blog_container
-	- blogcontainer_img01
-	- blogcontainer_img02
-
-	- headersecondary
-	- headersecondary_tittle
-
-	- us
-	- uscontainer
-	- uscontainer_img
-
-	- sales
-	- sales_tittle
-	- sales_buttom
+	- sesion01
+	- sesion02
+	- sesion03
 
 - Footer
 	- footer
