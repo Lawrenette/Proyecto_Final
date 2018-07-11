@@ -10,13 +10,15 @@
 	- Fuentes
 		- Delius
 		- Roboto
+		- Poppins
 
 	- Colores:
-		- (#E44880)
-		- (#FFC107)
-		- (#01d194)
-		- (#FF4C4C)
-		- (#FAFAFA)
+		- (#FFFFFF) Blanco
+		- (#3BC492) Verde agua
+		- (#FEBC06) Amarillo
+		- (#CC6601) Cafe
+		- (#866CBA) Morado
+		- (#45B6D6) Celeste
 
 	- Imagenes:
 		- Entregadas por cliente, sacadas personalmente y de internet. (vea carpeta "images")
