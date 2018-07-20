@@ -15,10 +15,8 @@
 </head>
 
 <body>
-  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
-
-  <!-- NAVBAR -->
-  <header class="cf">
+ <!-- NAVBAR -->
+ <header class="cf">
    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <a class="navbar-brand logo" href="index.html">VidaSana</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +24,7 @@
    </button>
    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
      <div class="navbar-nav ml-auto">
-      <a class="nav-item nav-link" href="index.html">Inicio</a>
+      <a class="nav-item nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="#">--</a>
       <a class="nav-item nav-link active" href="recetas.html">Recetas</a>
       <a class="nav-item nav-link" href="deporte.html">Deportes</a>
@@ -36,43 +34,177 @@
 </nav>
 </header>
 
-<div style="padding-top: 38px;"></div>
+<main>
+  <div style="padding-top: 140px;"></div>
 
-<footer>
-  <div class="container-fluid footer_fondo mt-5 pt-5">
-    <h1 class="contacto">< INSCRÍBETE CON NOSOTROS ></h1>
-    <hr>
-    <div class="row mt-4">
-      <form>
-       <div class="col-sm-12 col-md">
-        <div class="form-group">
-          <label for="exampleInputEmail1"><h5>Para más información inscribete:</h5></label><hr>
-          <label for="">Nombre:</label>
-          <input type="text" placeholder="Escribe tu nombre aquí" class="form-control">
-          <label class="mt-2" for="">E-mail:</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa Email">
-          <small id="emailHelp" class="form-text">
-          Revisa tu correo para más información</small>
-        </div>
-        <button type="submit" class="btn btn-warning mt-2 mb-4">Enviar</button>
+  <h1 class="titulo_recetas">RECETAS SALUDABLES</h1>
+  <hr class="linea_receta">
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-12 col-md-12 offset-3 col-lg-3 col-xl-3">
+        <img class="img-fluid img_receta" src="assets/images/recetas/imagen01.png" alt="">
       </div>
-    </form>
-    <div class=" col-sm-12 col-md">
-     <div class="embed-responsive embed-responsive-21by9">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.1124525095643!2d-70.73423278501917!3d-33.36813010067774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c0d976d06583%3A0x28f678fe853a60d2!2sJos%C3%A9+Francisco+Vergara+400%2C+Quilicura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1530233912113" width="1200" height="200" frameborder="0" style="border:0" class="embed-responsive-item" src="..."></iframe>
+      <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+        <h3>Croquetas de Zanahoria y Chia</h3>
+        <button type="button" class="btn btn-warning boton_receta">Ver receta aquí</button>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+        <h3>INGREDIENTES:</h3>
+        <ul>
+          <li>3 zanahorias</li>
+          <li>1 zapallo italiano</li>
+          <li>3 huevos</li>
+          <li>1 cebollín</li>
+          <li>1/2 taza de harina integral</li>
+          <li>1/3 taza de chía</li>
+          <li>sal, pimienta y ajo en polvo</li>
+        </ul>
+        <h3>PREPARACIÓN:</h3>
+        <p>Lava y ralla el zapallo italiano y  las zanahorias, luego pica el cebollín. Continua mezclando el zapallo, las zanahorias y el cebollín, agrega la  chía, harina de avena, huevos, condimentos y revolver bien. Armar las croquetas con una cuchara y cocinar en un sartén anti - adherente. sirve y a degustar.</p>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="container">
- <div class="row lawren">
-  <div class="col-12">
-   <p>Copyright © Lawren | Diseño: <a href="#">Natalia Acevedo</a><br> < Mujeres Programadoras ></p>
-   <hr id="linea">
+    <hr class="linea_receta">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 offset-3 col-lg-3 col-xl-3">
+        <img class="img-fluid img_receta" src="assets/images/recetas/imagen02.png" alt="">
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+        <h3>Ensalada de Lentejas</h3>
+        <button type="button" class="btn btn-warning boton_receta">Ver receta aquí</button>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+        <h3>INGREDIENTES:</h3>
+        <ul>
+          <li>1 taza de lentejas cocidas</li>
+          <li>1 trozo de queso fresco</li>
+          <li>1 tomate</li>
+          <li>1 cebollín</li>
+          <li>1 zanahoria</li>
+          <li>10 aceitunas</li>
+          <li>2 cucharadas de aceite de oliva</li>
+          <li>sal y pimienta</li>
+        </ul>
+        <h3>PREPARACIÓN:</h3>
+        <p>En un bowl mezclar el queso fresco y   tomate picados en cuadritos, las lentejas, la zanahoria rallada y las aceitunas en laminas. Agregar el aceite de oliva y sazonar con sal y pimienta.</p>
+      </div>
+    </div>
+
+    <hr class="linea_receta">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 offset-3 col-lg-3 col-xl-3">
+        <img class="img-fluid img_receta" src="assets/images/recetas/imagen03.png" alt="">
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+        <h3>Salsa de Palta</h3>
+        <button type="button" class="btn btn-warning boton_receta">Ver receta aquí</button>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+        <h3>INGREDIENTES:</h3>
+        <ul>
+          <li>2 Paltas</li>
+          <li>1 Yogurt natural descremado</li>
+          <li>Cilantro picado</li>
+          <li>Limón</li>
+          <li>Sal de mar</li>
+          <li>1 cucharada aceite de oliva</li>
+        </ul>
+        <h3>PREPARACIÓN:</h3>
+        <p>En un bowl moler la palta y agregar el resto de los ingredientes, revolver bien y sazonar con un toque de sal de mar.</p>
+      </div>
+    </div>
+
+    <hr class="linea_receta">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 offset-3 col-lg-3 col-xl-3">
+        <img class="img-fluid img_receta" src="assets/images/recetas/imagen04.png" alt="">
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+        <h3>Granola Casera</h3>
+        <button type="button" class="btn btn-warning boton_receta">Ver receta aquí</button>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+        <h3>INGREDIENTES:</h3>
+        <ul>
+          <li>2 tazas de avena</li>
+          <li>1/2 taza de almendras picadas</li>
+          <li>1/2 taza de nueces picadas</li>
+          <li>3 cucharadas de chía</li>
+          <li>3 cucharadas de linaza</li>
+          <li>1/2 taza de miel</li>
+          <li>5 cuadritos de chocolate amargo alto en cacao</li>
+        </ul>
+        <h3>PREPARACIÓN:</h3>
+        <p>En un bowl mezclar la avena, frutos secos y semillas. Derretir la miel y agregar a la mezcla anterior revolviendo muy bien. Llevar esta mezcla a un horno a fuego medio por 10 minutos, revolver y dejar 5 minutos más (siempre controlando que no se vaya a quemar). Retirar del horno y agregar el chocolate picado muy finamente, revolver y separar en pocillo hermético.  ideal para disfrutar en el desayuno</p>
+      </div>
+    </div>
+
+    <hr class="linea_receta">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 offset-3 col-lg-3 col-xl-3">
+        <img class="img-fluid img_receta" src="assets/images/recetas/imagen05.png" alt="">
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+        <h3>Hamburguesas de Zapallo Italiano</h3>
+        <button type="button" class="btn btn-warning boton_receta">Ver receta aquí</button>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+        <h3>INGREDIENTES:</h3>
+        <ul>
+          <li>3 zapallos italianos rallados</li>
+          <li>2 zanahorias ralladas</li>
+          <li>1 cebolla picada en cuadritos</li>
+          <li>3 huevos</li>
+          <li>aceite de oliva</li>
+          <li>1 taza de harina integral</li>
+          <li>sal y ajo</li>
+        </ul>
+        <h3>PREPARACIÓN:</h3>
+        <p>Sofreír con una 1 cucharada de aceite de oliva  la cebolla con el ajo. Luego agregar los zapallos y zanahoria, revolver unos minutos y retirar del fuego. Agregar sal y los huevos, revolver. Con la mano formar bolitas enharinar y aplastar hasta dar forma de hamburguesa. Llevar a horno medio hasta que este doradas y listo. Disfruta de este rico plato.</p>
+      </div>
+    </div>
+
+    <hr class="linea_receta">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 offset-3 col-lg-3 col-xl-3">
+        <img class="img-fluid img_receta" src="assets/images/recetas/imagen06.png" alt="">
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+        <h3>Galletas de Zapallo</h3>
+        <button type="button" class="btn btn-warning boton_receta">Ver receta aquí</button>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+        <h3>INGREDIENTES:</h3>
+        <ul>
+          <li>1 taza de pure de zapallo</li>
+          <li>1 taza de harina integral</li>
+          <li>1/2  taza de avena entera</li>
+          <li>50 gotas de stevia</li>
+          <li>3 cucharas de miel</li>
+          <li>1 huevo</li>
+          <li>1/4  cucharadita polvos de hornear</li>
+          <li>esencia de vainilla</li>
+        </ul>
+        <h3>PREPARACIÓN:</h3>
+        <p>Mezclar todos los ingredientes y  se arman las galletas en un molde aceitado. Se pueden decorar con nueces, y hornear por 15-20 minutos a 180ºC.</p>
+      </div>
+    </div>
+
+  </div> <!--container-->
+
+</main>
+
+<footer class="footer_fondo">    
+  <div class="container">
+   <div class="row lawren">
+    <div class="col-12">
+     <p>Copyright © Lawren | Diseño: <a href="#">Natalia Acevedo</a><br> < Mujeres Programadoras ></p>
+     <hr id="linea">
+   </div>
  </div>
 </div>
-</div>
-
 </footer>
 
 <!-- Optional JavaScript -->
