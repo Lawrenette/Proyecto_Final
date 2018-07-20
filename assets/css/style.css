@@ -134,7 +134,10 @@ header, .logo{
 	text-align: center;
 	text-shadow: 0 0 0.2em #45B6D6;
 	margin: 20px;
+}
+.subtitulo_recetas {
 	color: #45B6D6;
+	text-align: center;
 }
 .img_receta {
 	border-radius: 10px;
@@ -147,6 +150,12 @@ header, .logo{
 }
 .linea_receta {
 	border-color: #45B6D6;
+}
+.box_recetas {
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+	padding: 15px;
+	background-color: #f6f7f5;
+	margin-bottom: 25px;
 }
 /*===============================================
 ===================  Deportes ===================
