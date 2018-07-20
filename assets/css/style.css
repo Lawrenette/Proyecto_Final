@@ -38,7 +38,7 @@ header {
 	box-shadow: 0 4px 4px rgba(0,0,0,0.1);
 }
 .small {
-  height: 70px;
+ 	height: 70px;
 }
 .small .logo {
 	font-size: 3em;
@@ -57,10 +57,13 @@ nav {
 	font-family: 'Poppins', serif;
 	text-shadow: 0 0 0.3em #FFF;
 }
+.active {
+	text-shadow: 0 0 0.7em #FFF;
+}
 /* Transitions */
 header, .logo{
--webkit-transition: all 1s;
-transition: all 1s; 
+	-webkit-transition: all 1s;
+	transition: all 1s; 
 }
 
 /* FOOTER*/
@@ -68,9 +71,9 @@ transition: all 1s;
 	height: 300px;
 }
 .lawren p {
-  padding-top: 40px;
-  text-align: center;
-  text-shadow: 0 0 0.2em #45B6D6, 0 0 0.2em #45B6D6;
+ 	padding-top: 40px;
+ 	text-align: center;
+ 	text-shadow: 0 0 0.2em #45B6D6, 0 0 0.2em #45B6D6;
 }
 #linea {
 	width: 180px;
@@ -90,16 +93,19 @@ transition: all 1s;
 	padding-bottom: 250px;
 	font-size: 30px;
 	text-shadow: 3px 3px 2px #000;
-
 }
 /* MAIN */
 .sesiones {
 	text-align: center;
-	color: #FF4C4C;
+	color: #45B6D6;
 	font-family: 'Poppins';
 	font-style: italic;
-	background-color: #CDCDCD;
+	background-color: #866CBA;
 	padding: 10px;
+	text-shadow: 3px 3px 2px #000;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+	margin-top: 20px;
+	border-radius: 50px;
 }
 .sesion01 {
 	padding: 50px;
@@ -121,27 +127,66 @@ transition: all 1s;
 .sesion03 img {
 	height: 200px;
 }
-
 /*===============================================
-====================  GALERIA ===================
+====================  Recetas ===================
 ===============================================*/
- .imagen_galeria {
+.titulo_recetas {
+	text-align: center;
+	text-shadow: 0 0 0.2em #45B6D6;
+	margin: 20px;
+	color: #45B6D6;
+}
+.img_receta {
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.boton_receta {
+	margin-left: 10px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.linea_receta {
+	border-color: #45B6D6;
+}
+/*===============================================
+===================  Deportes ===================
+===============================================*/
+ .imagen_galeria:hover {
 	-webkit-filter: grayscale(100%);
 	-moz-filter:    grayscale(100%);
 	-ms-filter:     grayscale(100%);
 	-o-filter:      grayscale(100%);
 	filter: gray; 
 	width: 500px;
-	margin: 10px;
+	margin: 2px;
 	transition: 1s;
 	border-radius: 10px;
 }
-
-.imagen_galeria:hover {
+.imagen_galeria {
 	filter: none;
 	cursor: pointer;
 	transition: 1s;
 	border-radius: 10px;
+	margin-bottom: 30px;
+}
+.video {
+	margin-bottom: 20px;
+}
+.rutina {
+	text-align: center;
+	text-shadow: 0 0 0.2em #FEBC06;
+	margin: 10px;
+}
+.zumba {
+	margin-top: 80px;
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+	margin-right: 40px;
+	margin-left: 40px;
+}
+.libre {
+	text-align: center;
+	margin: 20px;
+	text-shadow: 0 0 0.2em #FEBC06;
 }
 
 /*===============================================
